@@ -1,0 +1,127 @@
+body{
+    background-color: #fbfcfe;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height:4rem;
+    background-color: #d43b33;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.register_phone img{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #fbfcfe;
+    position: absolute;
+    top:1rem;
+    bottom: 0.5rem;
+
+}
+
+.user_password img{
+     width: 1.5rem;
+    height: 1.5rem;
+    background-color: #fbfcfe;
+    position: absolute;
+    top:4rem;
+    bottom: 0rem;  
+
+}
+.headerDIV{
+   width: 20rem;
+   height: 2rem;
+   border: 1px solid black;
+   margin: auto;
+   padding-top: 1rem;
+   text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;   
+    margin-right: 5rem;
+    margin-left: 2rem;
+    line-height: 4rem; 
+
+}
+
+.input_same1{
+    width: 22rem;
+    height:3rem;
+    border: none;
+    border-bottom: 1px solid #e1e2e4;
+    padding-left:2rem; 
+    background-color: #fbfcfe;
+    outline: none;
+
+   
+}
+
+.input_same2{
+    width: 22rem;
+    height:3rem;
+    border: none;
+    border-bottom: 1px solid #e1e2e4;
+    padding-left:2rem; 
+    background-color: #fbfcfe;
+    outline: none;
+    
+}
+
+#regDIV{
+    width: 22rem;
+    height: 5rem;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.btn_register input{
+    width: 22rem;
+    height:3rem;    
+    background-color: #d43b33;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    
+}
+
+footer{
+    width:100%;
+    height: 10rem;
+    /* border: 1px solid black; */
+    position: absolute;
+    top:30rem;
+    /* left: 0.5rem; */
+    /* right: 0.5rem; */
+    bottom: 0;
+   
+}
+
+footer p{
+    /* margin-left: 1rem; */
+   text-align: center;
+   color: #DCDEE0;
+}
+
+
+.exterior li{
+    float: left;   
+    list-style: none; 
+    margin-right: 1rem;
+
+}
+.exterior img{
+    width: 4rem;
+
+}
+.exterior ul{
+    margin-left: 2rem;
+    padding: 0;
+}

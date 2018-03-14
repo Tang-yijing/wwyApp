@@ -1,0 +1,283 @@
+
+body{
+    font-size: 0;
+    /* position: relative; */
+}
+
+header{
+    width: 100%;
+    height:4rem;
+    background-color: #d43b33;
+}
+
+header img{
+    width: 2rem;
+    height:2rem;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    list-style: none;
+    /* margin-right: 0.5rem; */
+}
+header>div{
+    width: 22rem;
+    margin: auto;
+    padding-top: 1rem;
+    padding-left: 0.3rem;
+
+}
+header input{
+    width: 18rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius:2rem; 
+    text-align: center;
+}
+
+.menu{
+    width: 100%;
+    height: 3rem;
+    background-color: #f7f7f9;
+    text-align: center;
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+    line-height: 3rem;
+    margin-right: 2.1rem;
+    margin-left: 3rem;
+}
+
+
+
+.menu  a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*----------------------------------------- 轮播 ----------------------------------*/
+.lunboDiv{
+    width: 100%;
+    height: 10rem;
+    /* border-top: 1px solid #DBDCDF; */
+    background: #fbfcfe;
+    /* border: none; */
+    /* border-bottom: 1px solid #DADCDF; */
+    position: relative;
+}
+
+
+
+.img-div {
+    width:100%;
+    height:10rem;
+    /* border: 1px solid red; */
+    position: relative;
+    /* overflow: hidden; */
+ 
+}
+
+.img-div .img1 {  
+    width:100%;
+    height:10rem;  
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-div .img2 {  
+    width:100%;
+    height:10rem;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+/* .left,
+.right {
+    float: left;
+    padding: 20% 5px;
+    font-size: 3em;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+    cursor: pointer;
+}
+
+.right {
+    float: right;
+} */
+.circle {
+    /*padding: 0;*/
+    position: absolute;
+    left:50%;
+    /* top:90%; */
+    /* margin-left:-50px; */
+}
+.circle li{
+    display: inline;
+    /*float:left;*/
+    color:white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.nav2{
+    width: 100%;
+    height: 8rem;
+    background: #fbfcfe;
+    border-bottom: 1px solid #DBDCDF;
+
+}
+
+
+.nav2 img{
+    width:4rem;
+
+}
+
+.nav2 li{
+    float: left;
+    list-style: none;
+    width: 4rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 0.5rem;
+    
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+    
+}
+
+.nav2 ul{
+    margin-top:0;
+    padding: 0;
+}
+
+/* 推荐歌单 */
+
+.singDiv{
+    width: 100%;
+    height: 16rem;
+    background: #fbfcfe;
+    border-bottom: 1px solid #DBDCDF;
+    
+}
+
+ .singDiv p{
+     width:10rem;
+    height: 1rem;
+    color: black;
+    font-size: 1rem;
+    border-left: 0.3rem solid red;
+    padding-left: 0.5rem;
+
+
+} 
+.singDivs li{
+    width: 4rem;
+    float: left;
+    /* display: flex;
+    justify-content: space-between; */
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;  
+  
+   
+
+} 
+
+.singDivs  a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.5rem;
+    margin-left: 0.2rem;
+}
+
+.singDivs img{
+    width: 5rem;
+    height: 5rem;
+    background-color: red;
+
+}
+
+
+
+
+
+
+/*----------------------------------------- 页脚 -------------------------------------*/
+
+
+.footerDiv{
+    width: 100%;
+    height: 5rem;
+    background: #18181A;
+    border-bottom: 1px solid #DBDCDF;
+    position: fixed;
+    bottom: 0;
+
+
+}
+
+
+.footerDiv img{
+    width:3rem;
+    margin-left: 1rem;
+
+}
+
+.footerDiv li{
+    float: left;
+    list-style: none;
+    width: 4rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;    
+   
+    
+}
+
+.footerDiv a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.5rem;
+    margin-left:0.7rem;
+ 
+    
+    
+}
+
+.footerDiv ul{
+    margin-top:0;
+    padding: 0;
+}

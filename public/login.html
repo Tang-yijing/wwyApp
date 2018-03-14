@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <header>
+        <!-- <div class='headerDIV'> -->
+        <a href="">
+            <</a>
+                <span>手机号登录</span>
+                <!-- </div> -->
+    </header>
+    <div id='regDIV'>
+        <form id="reg_form" action="/loginPage" method="post">
+            <div class="register_phone">
+                <img src="img/2_03.png" alt="">
+                <input type="text" name='phone' class="input_same1" id="phone" placeholder="手机号" /><span id="spanZh"></span>   
+            </div>
+            <div class="user_password">
+                <img src="img/1_03.png" alt="">
+                <input type="password" class="input_same2" id="psw" name='psw' placeholder='密码' /> <span id="psws"></span>  
+            </div>
+            <div class="btn_register">
+                <input type="submit" value="登录" id="btn" />
+            </div>
+        </form>
+        <div id='new_pass'>
+            <a href="">重设密码</a>
+        </div>
+
+    </div>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+</body>
+
+</html>
